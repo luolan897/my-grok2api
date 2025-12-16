@@ -5,4 +5,4 @@ services:
       - "8000:8000"
     environment:
       - STORAGE_MODE=redis
-      - DATABASE_URL=https://tops-woodcock-23458.upstash.io
+      - DATABASE_URL=redis-cli --tls -u redis://default:AVuiAAIncDFmZGJkYmJlNTY0MWE0Zjg3YmI0MGI0Mzk0NTkzNjZmMXAxMjM0NTg@tops-woodcock-23458.upstash.io:6379
