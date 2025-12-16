@@ -1,0 +1,8 @@
+services:
+  grok2api:
+    image: ghcr.io/chenyme/grok2api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - STORAGE_MODE=redis
+      - DATABASE_URL=https://tops-woodcock-23458.upstash.io
